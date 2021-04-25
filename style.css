@@ -1,0 +1,86 @@
+h3{
+    color:brown;
+    text-align: center;
+
+}
+
+h1{
+    padding: 20px;
+    margin-right:580px;
+}
+
+/* *{border: solid} */
+
+.header{
+    background-color: rgb(12, 178, 243);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+
+}
+
+/* .header *{
+    border: solid
+
+} */
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+body{
+    background-color: #552fbe;
+    /* margin: 0px; */
+}
+
+a:link{
+    color: yellowgreen;
+
+}
+
+a:visited{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.menu a{
+padding: 8px;
+}
+
+.item{
+    position:relative
+
+}
+
+.item h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover h3{
+    opacity: 1;
+    color: black;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+/* absolute- change the position according to the parent division */
+/* relative- change the position according to the original position */
